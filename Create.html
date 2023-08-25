@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="Stylesheet" href="Create.css">
+    <title>Create Portfolio</title>
+</head>
+<body>
+    <section>
+        <form>
+            <h1 class="heading"> Enter your Portfolio required details.</h1>
+            <div>
+                <label for="Name">Enter Your Name : </label>
+                <input type="text" placeholder="Enter Your Name" id="Name">
+            </div>
+            <br>
+            <div>
+                Choose Your Profession :
+                <select name="Profession" id="Profession">
+                    <option> Select Your Profession</option>
+                    <option value="Stu">Student</option>
+                    <option value="ADev">App Developer</option> 
+                    <option value="Dev">Web Developer</option>
+                    <option value="Res">Researcher</option>
+                    <option value="Oth">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Intro"> Enter Your Short Introduction :</label>
+                <input type="text" placeholder="Enter Your Short Introduction" id="Intro">
+            </div>
+            <br>
+            <div>
+                <label for="file">Upload Resume/CV</label>
+                <input type="file" accept=".pdf" id="file" name="file" />
+            </div>
+            <div class="files">
+                *Only upload <b>.pdf</b> Formate.
+            </div>
+        </form>
+    </section>
+    <section>
+        <form action="">
+            <h3>About me</h3>
+            <div>
+                <label for="About"></label>
+                <input type="text" placeholder="About me" id="About">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
