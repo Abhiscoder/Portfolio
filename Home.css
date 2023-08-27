@@ -1,19 +1,39 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
 }
-
+/* Header CSS */
+body{
+    background-image: url(BgImag.jpg);
+    background-size: cover;
+}
 .navdf ul{
     display: flex;
     list-style: none;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding:0 0 0 800px;
+    padding:0 3rem;
 }
 .navdf ul li a{
     text-decoration: none;  
     display: flex;
-    padding:10px ;
+    padding:0.8rem ;
+    opacity: 0.8;
+    font-size: 1rem;
 }
 
+.navdf ul li a:hover{
+    opacity: 1.5;
+    color: yellow;
+    text-decoration: none;
+    font-weight:690;
+}
+
+/* Main content CSS*/
+.content{
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 10rem;
+}
