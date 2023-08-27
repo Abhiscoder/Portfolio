@@ -1,12 +1,19 @@
 *{
-    padding: 0;
     margin: 0;
-    text-decoration: none;
+    padding: 0;
 }
-.header{
-    text-align: right;
-    justify-content: right;
+
+.navdf ul{
     display: flex;
     list-style: none;
-    padding: 0 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:0 0 0 800px;
 }
+.navdf ul li a{
+    text-decoration: none;  
+    display: flex;
+    padding:10px ;
+}
+
