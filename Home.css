@@ -26,24 +26,38 @@ body{
 
 .navdf ul li a:hover{
     opacity: 1.5;
-    color: yellow;
+    color: rgb(0, 217, 255);
     text-decoration: none;
     font-weight:690;
 }
 
 /* Main content CSS*/
-.home{
+
+span p{
+    font-size: 3.5rem;
+    margin: 5rem 0 0 9rem;
+}
+span img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem -8rem;
-}
-.content{
-    font-size: 2.5rem;
-    margin: 4rem;
-}
-
-.Myimg{
-    border: 2px red solid;
+    margin: -18rem 0 0 67rem;
     border-radius: 50%;
+    box-shadow: 5px 2px 2px 2px rgb(190, 234, 235);
+}
+span img:hover{
+    border-color: rgb(214, 42, 42);
+    box-shadow: 5px 2px 2px 2px rgb(20, 194, 247);
+    transition: 1s;
+}
+footer{
+    padding: 6rem 0rem 0rem 13rem;
+    font-size: 1.2rem;
+}
+footer i{
+    margin: 0.2rem;
+}
+i:hover{
+    font-size: 1.4rem;
+    color: rgb(0, 217, 255);
 }
