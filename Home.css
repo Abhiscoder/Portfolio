@@ -34,24 +34,30 @@ body{
 /* Main content CSS*/
 
 span p{
+    
     font-size: 3.5rem;
-    margin: 5rem 0 0 9rem;
+    margin: 7rem 0 0 9rem;
+}
+span p b{
+    color: rgb(20, 194, 247);
 }
 span img{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: -18rem 0 0 67rem;
+    margin: -20rem 0 0 67rem;
     border-radius: 50%;
     box-shadow: 5px 2px 2px 2px rgb(190, 234, 235);
+    transition: all ease 1s;
 }
 span img:hover{
     border-color: rgb(214, 42, 42);
     box-shadow: 5px 2px 2px 2px rgb(20, 194, 247);
     transition: 1s;
+    scale:1.1;
 }
 footer{
-    padding: 6rem 0rem 0rem 13rem;
+    padding: 4rem 0rem 0rem 13rem;
     font-size: 1.2rem;
 }
 footer i{
